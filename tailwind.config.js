@@ -23,6 +23,7 @@ export default {
         blue5:  "#F5F5FB",
 
         // Black scale
+        black95 : "#141414",
         black90: "#2C2C2C",
         black80: "#434343",
         black70: "#5B5B5B",

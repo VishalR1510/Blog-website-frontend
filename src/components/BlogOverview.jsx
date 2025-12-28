@@ -8,9 +8,10 @@ function BlogOverview() {
             {blogData.map((blog) => (
                 <Blog 
                     key={blog.id}
+                    id={blog.id}
                     image={blog.image}
                     title={blog.title}
-                    content={blog.content}
+                    shortDescription={blog.shortDescription}
                 />
             ))}
         </div>
